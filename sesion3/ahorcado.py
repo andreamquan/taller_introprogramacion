@@ -1,3 +1,16 @@
+def despliegue_ahorcado(nivel):
+
+    oportunidades = ['|\n|\n|\n|\n|',
+                     '|  o  \n|\n|\n|\n|',
+                     '|  o  \n|  |\n|\n|\n|',
+                     '|  o  \n| /|\n|\n|\n|',
+                     '|  o  \n| /|\ \n|\n|\n|',
+                     '|  o  \n| /|\ \n|  |\n|\n|',
+                     '|  o  \n| /|\ \n|  |\n| /\n|',
+                     '|  o  \n| /|\ \n|  |\n| / \ \n|']
+    print('\n+--+--|')
+    print(oportunidades[nivel])
+
 print("BIENVENIDO A EL JUEGO DE AHORCADO")
 nombre = input("Ingresa tu nombre: ")
 print("Hola ", nombre, "!\n")
